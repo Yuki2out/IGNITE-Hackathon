@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f8b7170e4f7c9594da7fb04851326f35
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353162
+  packageName: Procedural Cloud Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/Procedural Cloud Shader/Shaders/ProceduralClouds.shader
+  uploadId: 841694

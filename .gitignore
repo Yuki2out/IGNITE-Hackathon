@@ -1,2 +1,10 @@
 /Game jam baraban/Library
 /Game jam baraban/UserSettings
+/Game jam baraban/Logs
+/Game jam baraban/Temp
+/Game jam baraban/Build
+/Game jam baraban/obj
+*.csproj
+*.unityproj
+*.sln
+*.cache

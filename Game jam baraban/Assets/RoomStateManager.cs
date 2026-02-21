@@ -9,13 +9,15 @@ public class RoomStateManager : MonoBehaviour
     public Transform player;
     public Light sun;
 
-    public int spawnpointUsed;
+    public int spawnPointIndex;
 
-    void Spawn(int spawnpointIndex)
+    void Spawn(int spawnPointIndex)
     {
-        player.transform.position = spawnPositions[spawnpointIndex].position;
-        RenderSettings.ambientIntensity = environmentStrength[spawnpointIndex];
-        sun.intensity = sunStrength[spawnpointIndex];
+        spawnPointIndex = Mathf.Min(spawnPositions.Length - 1, spawnPointIndex);
+
+        player.transform.position = spawnPositions[spawnPointIndex].position;
+        RenderSettings.ambientIntensity = environmentStrength[spawnPointIndex];
+        sun.intensity = sunStrength[spawnPointIndex];
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,6 +29,15 @@ public class RoomStateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("t"))
+        {
+            spawnPointIndex++;
+
+            if (spawnPointIndex >= spawnPositions.Length)
+                spawnPointIndex = 0;
+
+            Spawn(spawnPointIndex);
+            PlayerPrefs.SetInt("StageReached", spawnPointIndex);
+        }
     }
 }

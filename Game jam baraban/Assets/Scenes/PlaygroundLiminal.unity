@@ -42,8 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 13
-  m_BakeOnSceneLoad: 0
+  serializedVersion: 12
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -2228,6 +2227,7 @@ MonoBehaviour:
   mouseSensetivity: 1
   bobbingStrength: 0.01
   bobbingFrequency: 5
+  cameraLocked: 0
 --- !u!136 &1926260484
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2334,7 +2334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 1568310540}
   camera: {fileID: 658957463}
-  radius: 300
+  radius: 150
 --- !u!1 &1946048516
 GameObject:
   m_ObjectHideFlags: 0

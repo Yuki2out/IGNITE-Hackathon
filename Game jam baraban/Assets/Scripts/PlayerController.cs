@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public float bobbingFrequency;
 
     private bool onSurface;
+    public bool cameraLocked;
 
     private const float BackMovementFactor = 0.625f;
     private const float SidewaysMovementFactor = 0.75f;
@@ -103,9 +104,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Read mouse input here
-        rotX -= Input.GetAxis("Mouse X") * mouseSensetivity;
-        rotY += Input.GetAxis("Mouse Y") * mouseSensetivity;
-        rotY = Mathf.Clamp(rotY, -90f, 90f);
+        if (!cameraLocked)
+        {
+            rotX -= Input.GetAxis("Mouse X") * mouseSensetivity;
+            rotY += Input.GetAxis("Mouse Y") * mouseSensetivity;
+            rotY = Mathf.Clamp(rotY, -90f, 90f);
+        }
 
         time += Time.deltaTime;
         footstepsTimer += Time.deltaTime;
@@ -131,7 +135,7 @@ public class PlayerController : MonoBehaviour
             bobTimer += Time.deltaTime;
         }
 
-        StickToGround();
+        //StickToGround();
     }
 
     // New LateUpdate for smooth camera rotation

@@ -8,3 +8,5 @@
 *.unityproj
 *.sln
 *.cache
+*.vs
+*.vsidx

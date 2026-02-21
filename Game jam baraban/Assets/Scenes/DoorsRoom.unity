@@ -42,8 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 13
-  m_BakeOnSceneLoad: 0
+  serializedVersion: 12
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -747,8 +746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e262d92e8c968e48a078a75e7330e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Grave
-  stageIndex: 4
+  sceneToLoad: GirlRoom
+  stageIndex: 3
 --- !u!1001 &211139930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3950,6 +3949,7 @@ MonoBehaviour:
   mouseSensetivity: 1
   bobbingStrength: 0.01
   bobbingFrequency: 5
+  cameraLocked: 0
 --- !u!136 &1240098477
 CapsuleCollider:
   m_ObjectHideFlags: 0

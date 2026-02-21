@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0888e319ceb81404a9b71d2bf00e9d1f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353162
+  packageName: Procedural Cloud Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/Procedural Cloud Shader/Materials/Procedural Clouds.mat
+  uploadId: 841694

@@ -1163,8 +1163,13 @@
             "m_Id": "bc31d0604a4440e2a8808101399e7138"
         }
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -1195,8 +1200,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Emission"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -1210,8 +1220,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -1225,8 +1240,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -1240,8 +1260,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
@@ -1294,8 +1319,13 @@
     },
     "m_TextureType": 0,
     "m_NormalMapSpace": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -1318,8 +1348,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ScreenPositionMaterialSlot",
@@ -1344,8 +1379,13 @@
     },
     "m_Labels": [],
     "m_ScreenSpaceType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -1359,8 +1399,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TangentMaterialSlot",
@@ -1383,8 +1428,13 @@
     },
     "m_Labels": [],
     "m_Space": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
@@ -1420,8 +1470,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -1468,8 +1523,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -1489,8 +1549,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -1523,8 +1588,13 @@
     "m_Property": {
         "m_Id": "d3c978b0d14a4f66be175a9b89855be0"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -1538,8 +1608,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -1586,8 +1661,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -1610,8 +1690,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
@@ -1664,8 +1749,13 @@
     },
     "m_TextureType": 0,
     "m_NormalMapSpace": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -1685,8 +1775,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -1700,8 +1795,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -1732,8 +1832,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Normal"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -1756,8 +1861,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -1780,8 +1890,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
@@ -1823,8 +1938,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -1838,8 +1958,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
@@ -1855,8 +1980,13 @@
         "m_Guid": ""
     },
     "m_DefaultType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -1879,8 +2009,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -1903,8 +2038,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
@@ -1940,8 +2080,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -1964,8 +2109,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -1996,8 +2146,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Position"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -2044,8 +2199,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2059,8 +2219,13 @@
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
@@ -2086,8 +2251,13 @@
         "Y",
         "Z"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2101,8 +2271,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -2125,8 +2300,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
@@ -2162,8 +2342,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2177,8 +2362,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -2209,8 +2399,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Smoothness"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -2233,8 +2428,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
@@ -2244,8 +2444,13 @@
         "x": 1539.0,
         "y": -528.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
@@ -2268,8 +2473,13 @@
     },
     "m_Labels": [],
     "m_Space": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
@@ -2291,8 +2501,13 @@
     },
     "m_Modifiable": true,
     "m_DefaultType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2306,8 +2521,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
@@ -2336,8 +2556,13 @@
         "b": 0.0,
         "a": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
@@ -2350,8 +2575,13 @@
     "m_StageCapability": 3,
     "m_Value": false,
     "m_DefaultValue": false
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
@@ -2372,8 +2602,13 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2387,8 +2622,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.LerpNode",
@@ -2427,8 +2667,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubtractNode",
@@ -2464,8 +2709,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -2512,8 +2762,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
@@ -2529,8 +2784,13 @@
         "m_Guid": ""
     },
     "m_DefaultType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2544,8 +2804,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
@@ -2566,8 +2831,13 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -2614,8 +2884,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -2638,8 +2913,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2653,8 +2933,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
@@ -2677,8 +2962,13 @@
         "a": 0.7058823704719544
     },
     "m_ColorMode": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -2701,8 +2991,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -2735,8 +3030,13 @@
     "m_Property": {
         "m_Id": "6269b1025b26473ca8bc61634f34b537"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -2759,8 +3059,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -2783,8 +3088,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2798,8 +3108,13 @@
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
@@ -2810,8 +3125,13 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2827,8 +3147,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -2851,8 +3176,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -2866,8 +3196,13 @@
     "m_Value": 20.0,
     "m_DefaultValue": 10.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
@@ -2890,8 +3225,13 @@
     },
     "m_Labels": [],
     "m_Space": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
@@ -2913,8 +3253,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
@@ -2956,8 +3301,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -2981,8 +3331,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
@@ -3018,8 +3373,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3035,8 +3395,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
@@ -3046,8 +3411,13 @@
         "x": -748.0,
         "y": -1059.9998779296875
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
@@ -3057,8 +3427,13 @@
         "x": 2039.9996337890625,
         "y": 285.00018310546877
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -3081,8 +3456,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
@@ -3103,8 +3483,13 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
@@ -3137,8 +3522,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -3158,8 +3548,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -3183,8 +3578,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
@@ -3206,8 +3606,13 @@
         "x": 0.0,
         "y": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -3240,8 +3645,13 @@
     "m_Property": {
         "m_Id": "4351ac2be1d74054986ec5378db9d578"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3257,8 +3667,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
@@ -3294,8 +3709,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3309,8 +3729,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
@@ -3323,8 +3748,13 @@
     "m_StageCapability": 3,
     "m_Value": false,
     "m_DefaultValue": false
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -3348,8 +3778,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3363,8 +3798,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
@@ -3403,8 +3843,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -3427,8 +3872,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3442,8 +3892,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -3463,8 +3918,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
@@ -3486,8 +3946,13 @@
         "z": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
@@ -3523,8 +3988,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3540,8 +4010,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
@@ -3563,8 +4038,13 @@
         "x": 0.0,
         "y": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -3611,8 +4091,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3626,8 +4111,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -3650,8 +4140,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -3674,8 +4169,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3689,8 +4189,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -3713,8 +4218,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -3734,8 +4244,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
@@ -3757,8 +4272,13 @@
         "x": 0.0,
         "y": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
@@ -3800,8 +4320,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -3825,8 +4350,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -3846,8 +4376,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -3861,8 +4396,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -3885,8 +4425,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
@@ -3922,8 +4467,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
@@ -3945,8 +4495,13 @@
         "x": 0.0,
         "y": 2.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
@@ -3968,8 +4523,13 @@
     },
     "m_Modifiable": true,
     "m_DefaultType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
@@ -4011,8 +4571,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -4045,8 +4610,13 @@
     "m_Property": {
         "m_Id": "786b67b3efe14204b2f06f9afb9d8cf1"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -4060,8 +4630,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
@@ -4083,8 +4658,13 @@
         "x": 0.0,
         "y": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GradientNoiseNode",
@@ -4120,8 +4700,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -4152,8 +4737,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Occlusion"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -4186,8 +4776,13 @@
     "m_Property": {
         "m_Id": "dada42ebfac44076897b6de67441ba32"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
@@ -4209,8 +4804,13 @@
         "z": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
@@ -4232,8 +4832,13 @@
         "x": 0.0,
         "y": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
@@ -4243,8 +4848,13 @@
         "x": 10.0,
         "y": 10.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
@@ -4255,8 +4865,13 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -4279,8 +4894,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
@@ -4322,8 +4942,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
@@ -4334,8 +4959,13 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
@@ -4356,8 +4986,13 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -4380,8 +5015,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
@@ -4403,8 +5043,13 @@
     },
     "m_Modifiable": true,
     "m_DefaultType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -4418,8 +5063,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -4435,8 +5085,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -4469,8 +5124,13 @@
     "m_Property": {
         "m_Id": "6f56a0970372485390c6587863c2374e"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ScreenPositionNode",
@@ -4501,8 +5161,13 @@
         "m_SerializableColors": []
     },
     "m_ScreenSpaceType": 1
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -4549,8 +5214,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -4573,8 +5243,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -4597,8 +5272,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -4629,8 +5309,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.NormalTS"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -4663,8 +5348,13 @@
     "m_Property": {
         "m_Id": "687f54e8c371429f86b9eaab0e7dfe3e"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
@@ -4680,8 +5370,13 @@
         "m_Guid": ""
     },
     "m_DefaultType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -4704,8 +5399,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.LerpNode",
@@ -4744,8 +5444,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -4759,8 +5464,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
@@ -4782,8 +5492,13 @@
         "z": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -4799,8 +5514,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -4820,8 +5540,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BranchNode",
@@ -4860,8 +5585,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
@@ -4882,8 +5612,13 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -4897,8 +5632,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
@@ -4920,8 +5660,13 @@
         "z": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -4937,8 +5682,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -4961,8 +5711,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -5009,8 +5764,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -5043,8 +5803,13 @@
     "m_Property": {
         "m_Id": "6d0f902902b04ba687ee00a51db7ba6d"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
@@ -5086,8 +5851,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5101,8 +5871,13 @@
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -5122,8 +5897,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
@@ -5146,8 +5926,13 @@
         "a": 0.19607843458652497
     },
     "m_ColorMode": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5161,8 +5946,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5176,8 +5966,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -5197,8 +5992,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
@@ -5234,8 +6034,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -5268,8 +6073,13 @@
     "m_Property": {
         "m_Id": "7273530c27a34c9f8ee5723b84f96baa"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
@@ -5293,8 +6103,13 @@
         "Y"
     ],
     "m_Channel": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5308,8 +6123,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5325,8 +6145,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
@@ -5348,8 +6173,13 @@
         "z": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5363,8 +6193,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -5388,8 +6223,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5403,8 +6243,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -5427,8 +6272,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -5451,8 +6301,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
@@ -5481,8 +6336,13 @@
         "b": 0.5,
         "a": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -5513,8 +6373,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Metallic"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5528,8 +6393,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -5552,8 +6422,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -5576,8 +6451,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5591,8 +6471,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5606,8 +6491,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5621,8 +6511,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5636,8 +6531,13 @@
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5651,8 +6551,13 @@
     "m_Value": 0.5,
     "m_DefaultValue": 0.5,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -5683,8 +6588,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
@@ -5705,8 +6615,13 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5720,8 +6635,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -5744,8 +6664,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5759,8 +6684,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -5791,8 +6721,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Tangent"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ScreenPositionNode",
@@ -5823,8 +6758,13 @@
         "m_SerializableColors": []
     },
     "m_ScreenSpaceType": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -5847,8 +6787,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -5872,8 +6817,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5887,8 +6837,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -5911,8 +6866,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5926,8 +6886,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -5941,8 +6906,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -5989,8 +6959,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6004,8 +6979,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
@@ -6018,8 +6998,13 @@
     "m_TwoSided": false,
     "m_AlphaClip": true,
     "m_CustomEditorGUI": ""
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6033,8 +7018,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6048,8 +7038,13 @@
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
@@ -6071,8 +7066,13 @@
         "z": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -6092,8 +7092,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6107,8 +7112,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.5,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6122,8 +7132,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6139,8 +7154,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -6163,8 +7183,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.LerpNode",
@@ -6203,8 +7228,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
@@ -6240,8 +7270,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalLitSubTarget",
@@ -6249,8 +7284,13 @@
     "m_WorkflowMode": 1,
     "m_NormalDropOffSpace": 0,
     "m_ClearCoat": false
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -6297,8 +7337,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -6329,8 +7374,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Alpha"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SamplerStateMaterialSlot",
@@ -6341,8 +7391,13 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Sampler",
     "m_StageCapability": 3
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ClampNode",
@@ -6381,8 +7436,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -6405,8 +7465,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
@@ -6423,8 +7488,13 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": false
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
@@ -6463,8 +7533,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6478,8 +7553,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -6512,8 +7592,13 @@
     "m_Property": {
         "m_Id": "6c82dffdd68049bcb019d3a9c64c92a0"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -6536,8 +7621,13 @@
         "X",
         "Y"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CameraNode",
@@ -6588,8 +7678,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
@@ -6611,8 +7706,13 @@
         "x": 0.0,
         "y": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -6635,8 +7735,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalStrengthNode",
@@ -6672,8 +7777,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -6696,8 +7806,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
@@ -6750,8 +7865,13 @@
     },
     "m_TextureType": 0,
     "m_NormalMapSpace": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -6774,8 +7894,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
@@ -6798,8 +7923,13 @@
     },
     "m_Labels": [],
     "m_Space": 3
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6813,8 +7943,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
@@ -6834,8 +7969,13 @@
         "y": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SceneDepthNode",
@@ -6869,8 +8009,13 @@
         "m_SerializableColors": []
     },
     "m_DepthSamplingMode": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SamplerStateMaterialSlot",
@@ -6881,8 +8026,13 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Sampler",
     "m_StageCapability": 3
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -6915,8 +8065,13 @@
     "m_Property": {
         "m_Id": "55003dfa023448c3bffa42f3ca4a99a4"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -6940,8 +8095,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -6955,8 +8115,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SamplerStateMaterialSlot",
@@ -6967,8 +8132,13 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Sampler",
     "m_StageCapability": 3
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -6991,8 +8161,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -7015,8 +8190,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -7039,8 +8219,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -7063,8 +8248,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7078,8 +8268,13 @@
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -7112,8 +8307,13 @@
     "m_Property": {
         "m_Id": "28de85506601443d82b6148f21ccc69c"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -7136,8 +8336,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -7160,8 +8365,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7177,8 +8387,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
@@ -7217,8 +8432,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -7251,8 +8471,13 @@
     "m_Property": {
         "m_Id": "93e06cd551a5449091bcde90b46765a0"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7266,8 +8491,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7281,8 +8511,13 @@
     "m_Value": 1.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7298,8 +8533,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -7323,8 +8563,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -7347,8 +8592,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CombineNode",
@@ -7396,8 +8646,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
@@ -7428,8 +8683,13 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.AlphaClipThreshold"
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
@@ -7452,8 +8712,13 @@
         "z": 0.0,
         "w": 0.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
@@ -7486,8 +8751,13 @@
     "m_Property": {
         "m_Id": "36218622185947c6a5ae36366d8e21d8"
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -7534,8 +8804,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
@@ -7559,8 +8834,13 @@
         "w": 0.0
     },
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7576,8 +8856,13 @@
     "m_Labels": [
         "X"
     ]
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7591,8 +8876,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CombineNode",
@@ -7640,8 +8930,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
@@ -7655,8 +8950,13 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
@@ -7692,8 +8992,13 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
@@ -7740,8 +9045,13 @@
         "e32": 0.0,
         "e33": 1.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
@@ -7772,8 +9082,13 @@
         "m_SerializableColors": []
     },
     "m_Space": 0
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
@@ -7783,5 +9098,10 @@
         "x": 10.0,
         "y": 10.0
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> main

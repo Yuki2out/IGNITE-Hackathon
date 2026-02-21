@@ -16046,6 +16046,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &405934158
 GameObject:
   m_ObjectHideFlags: 0
@@ -16175,6 +16176,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> main
 --- !u!1 &406618416
 GameObject:
   m_ObjectHideFlags: 0
@@ -87050,4 +87053,7 @@ SceneRoots:
   - {fileID: 1243023265}
   - {fileID: 1776295355}
   - {fileID: 271145179}
+<<<<<<< HEAD
   - {fileID: 405934160}
+=======
+>>>>>>> main

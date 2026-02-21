@@ -42594,6 +42594,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1973847813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1977913702
 GameObject:
   m_ObjectHideFlags: 0
@@ -42723,6 +42724,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> main
 --- !u!1001 &1978275792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46375,4 +46378,7 @@ SceneRoots:
   - {fileID: 1396765954}
   - {fileID: 1948237835}
   - {fileID: 1889383851}
+<<<<<<< HEAD
   - {fileID: 1977913704}
+=======
+>>>>>>> main

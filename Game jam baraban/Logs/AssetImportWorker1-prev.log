@@ -7,21 +7,21 @@ Distro version:          #1 SMP PREEMPT_DYNAMIC Thu, 18 Dec 2025 13:46:28 +0000
 Kernel version:          6.12.63-1-MANJARO
 Architecture:            x86_64
 Available memory:        15843 MB
-Date:                    2026-02-20T23:07:46Z
+Date:                    2026-02-21T03:09:58Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kris" at "2026-02-20T23:07:46.398511Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kris" at "2026-02-21T03:09:58.390592Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              e4de3e51691c40ccaa5957b6fe3ba16d
+  Session Id:              3a41692eedb54c54b34f4e7163cfeb4a
   Correlation Id:          c64ac20de3c21ae59d9ec264d9b36a3b
-  External correlation Id: 2054233287221586062
+  External correlation Id: 4133323030729545995
   Machine Id:              /2EpEmXeBOCKOr9IS5wUbWyy2Is=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kris" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kris-notifications" at "2026-02-20T23:07:46.399873Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kris-notifications" at "2026-02-21T03:09:58.391367Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
-Desktop is 1366 x 740 @ 60 Hz
+Desktop is 1366 x 768 @ 60 Hz
 Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
@@ -36,7 +36,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-37697
+38333
 -licensingIpc
 LicenseClient-kris
 -job-worker-count
@@ -82,14 +82,14 @@ Successfully changed project path to: /home/kris/Documents/game dev/game jam/Gam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139877897914944]  Target information:
+Player connection [139829698144832]  Target information:
 
-Player connection [139877897914944]  * "[IP] 192.168.0.249 [Port] 0 [Flags] 2 [Guid] 2813584300 [EditorId] 2813584300 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.249) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139829698144832]  * "[IP] 192.168.0.249 [Port] 0 [Flags] 2 [Guid] 1564838143 [EditorId] 1564838143 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.249) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139877897914944]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2813584300 [EditorId] 2813584300 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.249) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139829698144832]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 1564838143 [EditorId] 1564838143 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.249) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139877897914944] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [139877897914944] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139829698144832] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139829698144832] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -101,7 +101,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
 [Subsystems] Discovering subsystems at path /home/kris/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
@@ -120,51 +120,51 @@ exture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_r
 pth_stencil GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_image_load_formatted GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EX
 T_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_shader_atomic_float_minmax GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_sample_locations GL_NV_shader_atomic_float GL_NV_texture_barrier GL_OES_EGL_image GL_OVR_multiview GL_OVR_multiv
 iew2 GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 2008134384
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 953812016
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = '/home/kris/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
 Mono path[1] = '/home/kris/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/kris/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56603
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/kris/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/kris/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001397 seconds.
-- Loaded All Assemblies, in  0,436 seconds
+Registered in 0,000994 seconds.
+- Loaded All Assemblies, in  0,356 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,393 seconds
-Domain Reload Profiling: 829ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0,290 seconds
+Domain Reload Profiling: 646ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
+	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (93ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (80ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (221ms)
-				TypeCache.ScanAssembly (205ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (149ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (393ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (290ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (346ms)
+		SetupLoadedEditorAssemblies (254ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -179,7 +179,7 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0,628 seconds
+- Loaded All Assemblies, in  0,574 seconds
 Refreshing native plugins compatible for Editor in 0,18 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
@@ -192,115 +192,90 @@ UpdateMenuTitleForLanguage: 10
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Game jam baraban
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,614 seconds
-Domain Reload Profiling: 1241ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0,637 seconds
+Domain Reload Profiling: 1210ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (241ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (145ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
 			BuildScriptInfoCaches (40ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (615ms)
+	FinalizeReload (637ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (489ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (301ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 AutoLocale: current locale expects 'C' but got 'bg_BG.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6516 unused Assets / (9.8 MB). Loaded Objects now: 7236.
-Memory consumption went from 146.8 MB to 137.1 MB.
-Total: 10.916089 ms (FindLiveObjects: 0.618325 ms CreateObjectMapping: 0.699397 ms MarkObjects: 5.120759 ms  DeleteObjects: 4.476714 ms)
+Unloading 6518 unused Assets / (9.6 MB). Loaded Objects now: 7238.
+Memory consumption went from 146.9 MB to 137.2 MB.
+Total: 12.023467 ms (FindLiveObjects: 0.611197 ms CreateObjectMapping: 0.585712 ms MarkObjects: 6.122097 ms  DeleteObjects: 4.702683 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26907.381204 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_ao.png
-  artifactKey: Guid(26aa4d964d5d9ee74aaf7ec1e9291aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_ao.png using Guid(26aa4d964d5d9ee74aaf7ec1e9291aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9fc3f73a0a73223baae50302718cf09') in 0.097826932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_metallic.psd
-  artifactKey: Guid(5133014ed05601a50bcbcb854ad01524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_metallic.psd using Guid(5133014ed05601a50bcbcb854ad01524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79e002af27c447cd175da3de0d449401') in 0.013526591 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_height.png
-  artifactKey: Guid(29abae26e648d9253846e817ecd3913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_height.png using Guid(29abae26e648d9253846e817ecd3913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a08fcc1648da4052d6eeb2086798765') in 0.010699438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.486965 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_normal-ogl.png
-  artifactKey: Guid(0661cb727972d5ef0995db34ea04b498) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_normal-ogl.png using Guid(0661cb727972d5ef0995db34ea04b498) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d38af727de2055adac56e4550334697') in 0.252482963 seconds
+  Time since last request: 41437.472991 seconds.
+  path: Assets/3D Structures/Farmhouse Maya 2016 Updated/Farmhouse_maya16.mb
+  artifactKey: Guid(14677bce5063dcfee93059ec117b0c9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D Structures/Farmhouse Maya 2016 Updated/Farmhouse_maya16.mb using Guid(14677bce5063dcfee93059ec117b0c9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed5ca773461e39e3a483d39831f3794b') in 0.167073839 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_preview.jpg
-  artifactKey: Guid(1f8438e492fb5f95e9a1b20f50a76b32) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_preview.jpg using Guid(1f8438e492fb5f95e9a1b20f50a76b32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e48f4d2b0105239cf306177efa4a3a18') in 0.014794581 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Structures/Farmhouse Maya 2016 Updated/farmhouse_obj.obj
+  artifactKey: Guid(473a07ac8b0a21fef848937d5f2ef717) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D Structures/Farmhouse Maya 2016 Updated/farmhouse_obj.obj using Guid(473a07ac8b0a21fef848937d5f2ef717) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffafa9f5b9d5892a9cea89a7d481cef5') in 0.061272372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/StageBargining.1.unity
+  artifactKey: Guid(9f4c97233be3df4908837d4322584e6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/StageBargining.1.unity using Guid(9f4c97233be3df4908837d4322584e6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e13806fb9b059a685acb781ed2e282d6') in 0.012427144 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity
-  artifactKey: Guid(4ad8d97fb42960087a7744b7128f72fd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/corrugated-cardboard-unity using Guid(4ad8d97fb42960087a7744b7128f72fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b678143e3b0cb7f5ddcd99af705f858') in 0.003179361 seconds
+  path: Assets/3D Structures/Farmhouse Maya 2016 Updated/farmhouse_obj.mtl
+  artifactKey: Guid(61bd29eefd5a9686fb2d68e01449242b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D Structures/Farmhouse Maya 2016 Updated/farmhouse_obj.mtl using Guid(61bd29eefd5a9686fb2d68e01449242b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ad4e9e0a1610f537551cb58b1ac9d70') in 0.001910622 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_metallic.psd
-  artifactKey: Guid(5133014ed05601a50bcbcb854ad01524) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_metallic.psd using Guid(5133014ed05601a50bcbcb854ad01524) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7513e2ed1aa2bd8ae377d2a10786b182') in 0.02211109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_height.png
-  artifactKey: Guid(29abae26e648d9253846e817ecd3913d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_height.png using Guid(29abae26e648d9253846e817ecd3913d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd92bc8eaaed119df9be479a2aaf0e484') in 0.022044887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/KnockDoor.cs
+  artifactKey: Guid(cb1cfe35dc44f7d178cea1ab51834538) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/KnockDoor.cs using Guid(cb1cfe35dc44f7d178cea1ab51834538) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd958299f854d169f53d0b9a805bc0347') in 0.003321732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
 
 SDL leaked 2 allocations
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

@@ -107,19 +107,8 @@ public class PlayerController : MonoBehaviour
 
         rotY = Mathf.Clamp(rotY, -90f, 90f);
 
-        if (this.velocity > 0.04f) camera.GetComponent<Camera>().fieldOfView += Time.deltaTime * 4f;
-        else camera.GetComponent<Camera>().fieldOfView -= 0.03f * (camera.GetComponent<Camera>().fieldOfView - minFov);
 
-        camera.GetComponent<Camera>().fieldOfView = Mathf.Max(minFov, Mathf.Min(maxFov, camera.GetComponent<Camera>().fieldOfView));
 
-        minFov -= Input.GetAxis("Mouse ScrollWheel") * 20;
-        maxFov -= Input.GetAxis("Mouse ScrollWheel") * 20;
-
-        if (minFov < lowestFov || maxFov > highestFov)
-        {
-            minFov += Input.GetAxis("Mouse ScrollWheel") * 20;
-            maxFov += Input.GetAxis("Mouse ScrollWheel") * 20;
-        }
 
         time += Time.deltaTime;
         footstepsTimer += Time.deltaTime;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Unity Editor version:    6000.2.9f1 (e0c4e791ab71)
 Branch:                  6000.2/staging
 Build type:              Release
@@ -23,33 +24,47 @@ Date:                    2026-02-20T23:07:46Z
 Selected window backend: (null) 
 Desktop is 1366 x 740 @ 60 Hz
 Initialize udev device monitor.
+=======
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.68f1 (e1e9baaf294b) revision 14805434'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 7971 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-20T23:33:09Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sdsds" at "2026-02-20T23:33:09.6075976Z"
+>>>>>>> main
 
 COMMAND LINE ARGUMENTS:
-Unity
+C:\Program Files\Unity\Hub\Editor\6000.0.68f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/home/kris/Documents/game dev/game jam/Game jam baraban
+C:/Users/sdsds/Desktop/Game jam baraban
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 37697
+=======
+51868
+>>>>>>> main
 -licensingIpc
-LicenseClient-kris
+LicenseClient-sdsds
 -job-worker-count
-5
+1
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: /home/kris/Documents/game dev/game jam/Game jam baraban
-/home/kris/Documents/game dev/game jam/Game jam baraban
+-name
+AssetImport
+Successfully changed project path to: C:/Users/sdsds/Desktop/Game jam baraban
+C:/Users/sdsds/Desktop/Game jam baraban
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -70,6 +85,8 @@ Successfully changed project path to: /home/kris/Documents/game dev/game jam/Gam
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -82,6 +99,7 @@ Successfully changed project path to: /home/kris/Documents/game dev/game jam/Gam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [139726501931584]  Target information:
 
 Player connection [139726501931584]  * "[IP] 192.168.0.249 [Port] 0 [Flags] 2 [Guid] 1315074990 [EditorId] 1315074990 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.249) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
@@ -91,6 +109,15 @@ Player connection [139726501931584]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid
 Player connection [139726501931584] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [139726501931584] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
+=======
+Player connection [13396]  Target information:
+
+Player connection [13396]  * "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 1630241012 [EditorId] 1630241012 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MA9M5UA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13396] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13396] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+>>>>>>> main
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -101,6 +128,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0,94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
@@ -139,10 +167,49 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0,391 seconds
 Domain Reload Profiling: 823ms
 	BeginReloadAssembly (94ms)
+=======
+Refreshing native plugins compatible for Editor in 882.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.68f1 (e1e9baaf294b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sdsds/Desktop/Game jam baraban/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     3985 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.68f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017021 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              0ba17614a83a41adaaf8108d061ea99d
+  Correlation Id:          e59203e77e7b86e9022367d62d78d885
+  External correlation Id: 6434214031897876554
+  Machine Id:              r/sjLmOoz2ltjehlPt4GF7BsHSY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sdsds" (connect: 0.01s, validation: 0.00s, handshake: 7.58s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sdsds-notifications" at "2026-02-20T23:33:17.2110493Z"
+[Licensing::Module] Licensing Background thread has ended after 7.61s
+- Loaded All Assemblies, in  3.337 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.265 seconds
+Domain Reload Profiling: 5589ms
+	BeginReloadAssembly (1068ms)
+>>>>>>> main
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (45ms)
 	RebuildNativeTypeToScriptingClass (9ms)
@@ -165,6 +232,30 @@ Domain Reload Profiling: 823ms
 			BeforeProcessingInitializeOnLoad (89ms)
 			ProcessInitializeOnLoadAttributes (138ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
+=======
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (322ms)
+	RebuildNativeTypeToScriptingClass (92ms)
+	initialDomainReloadingComplete (289ms)
+	LoadAllAssembliesAndSetupDomain (1554ms)
+		LoadAssemblies (1043ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1531ms)
+			TypeCache.Refresh (1518ms)
+				TypeCache.ScanAssembly (1419ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2266ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (96ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (313ms)
+			ProcessInitializeOnLoadAttributes (1154ms)
+			ProcessInitializeOnLoadMethodAttributes (444ms)
+>>>>>>> main
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -175,14 +266,24 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 7972256364380-UnityPersXXXX
+  Id: 7971820523863-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0,606 seconds
 Refreshing native plugins compatible for Editor in 0,19 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
+=======
+- Loaded All Assemblies, in  2.486 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.LightmapSamplingSettings, Unity.RenderPipelines.Core.Runtime (1 object)
+	UnityEngine.Rendering.RenderingDebuggerRuntimeResources, Unity.RenderPipelines.Core.Runtime (1 object)
+	UnityEngine.Rendering.VrsRenderPipelineRuntimeResources, Unity.RenderPipelines.Core.Runtime (1 object)
+Native extension for WindowsStandalone target not found
+>>>>>>> main
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -192,6 +293,7 @@ UpdateMenuTitleForLanguage: 10
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Game jam baraban
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0,616 seconds
 Domain Reload Profiling: 1221ms
 	BeginReloadAssembly (156ms)
@@ -240,10 +342,60 @@ Received Import Request.
   path: Assets/Materials/corrugated-cardboard-unity
   artifactKey: Guid(4ad8d97fb42960087a7744b7128f72fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/corrugated-cardboard-unity using Guid(4ad8d97fb42960087a7744b7128f72fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c79cd160488a48a2f88fa9ae2387e5ea') in 0.004992958 seconds
+=======
+- Finished resetting the current domain, in  1.685 seconds
+Domain Reload Profiling: 4162ms
+	BeginReloadAssembly (746ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (161ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1457ms)
+		LoadAssemblies (1016ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (844ms)
+			TypeCache.Refresh (533ms)
+				TypeCache.ScanAssembly (507ms)
+			BuildScriptInfoCaches (247ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (1686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1236ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (361ms)
+			ProcessInitializeOnLoadAttributes (734ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6111 unused Assets / (3.2 MB). Loaded Objects now: 6801.
+Memory consumption went from 121.1 MB to 118.0 MB.
+Total: 13.901700 ms (FindLiveObjects: 0.767600 ms CreateObjectMapping: 0.827600 ms MarkObjects: 7.642900 ms  DeleteObjects: 4.662200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97274.390381 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b1c4138bd575057e98579f05b6577ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(b1c4138bd575057e98579f05b6577ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4ddddb34b383347afffd004c4373eb7') in 0.01085 seconds
+>>>>>>> main
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 1.144105 seconds.
   path: Assets/Materials/corrugated-cardboard-unity/corrugated-cardboard_albedo.png
   artifactKey: Guid(ccebcc4c4d8fce071a4494829775f48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -297,4 +449,27 @@ Received Import Request.
   artifactKey: Guid(9f4c97233be3df4908837d4322584e6f) Importer(2089858483,192608db42251d675da83286b1cce702)
 Start importing Assets/Scenes/StageBargining.1.unity using Guid(9f4c97233be3df4908837d4322584e6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae05a7a3e790fc0b786506f96d017a63') in 0.039517134 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+=======
+  Time since last request: 0.000021 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd58c1d50d0f6b4a4d958c92247c46599') in 0.0371392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae1af5c61b2fd4bcacfc65f55f013a75') in 0.0011936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0056374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+>>>>>>> main
 

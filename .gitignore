@@ -1,9 +1,9 @@
 /Game jam baraban/Library
 /Game jam baraban/UserSettings
-/Game jam baraban/[Ll]ogs/
-/Game jam baraban/[Tt]emp/
-/Game jam baraban/[Bb]uild/
-/Game jam baraban/obj/
+/Game jam baraban/Logs
+/Game jam baraban/Temp
+/Game jam baraban/Build
+/Game jam baraban/obj
 *.csproj
 *.unityproj
 *.sln

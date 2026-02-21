@@ -52,6 +52,7 @@
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/ExitTeleporter.cs" />
     <Compile Include="Assets/WrapToRadius.cs" />
+    <Compile Include="Assets/RoomStateManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

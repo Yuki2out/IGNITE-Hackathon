@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abbcbc3003000614ca1a043a7f31c487
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353162
+  packageName: Procedural Cloud Shader
+  packageVersion: 1.0.0
+  assetPath: Assets/Procedural Cloud Shader/Prefabs/Cloud Dome.prefab
+  uploadId: 841694

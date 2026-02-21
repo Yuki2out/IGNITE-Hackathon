@@ -1,0 +1,7 @@
+Instructions
+
+1. Create a cloud material in FX/ProceduralClouds.
+2. Add a dome or plane to the scene.
+3. Increase its scale to 100–200 and move it upward on the Y axis.
+4. Assign the cloud material to the dome or plane.
+5. That’s it.

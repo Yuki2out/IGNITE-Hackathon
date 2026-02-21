@@ -51,16 +51,24 @@
     <Compile Include="Assets/Scripts/HouseScatterer.cs" />
     <Compile Include="Assets/Realistic Tree/Demo Scene/Rotate.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
+<<<<<<< HEAD
+    <Compile Include="Assets/Materials/darkVoidWaterflow.cs" />
+=======
     <Compile Include="Assets/Realistic Tree/Demo Scene/Buttonscript.cs" />
     <Compile Include="Assets/Tree_Packs/URP_Tree_Pack/Scripts/Tree_Packs.cs" />
     <Compile Include="Assets/Grass And Flowers Pack 1/Example Scene/SimpleTextureDrawing.cs" />
+>>>>>>> main
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/KnockDoor.cs" />
     <Compile Include="Assets/Scripts/PlayerEventMeng.cs" />
     <Compile Include="Assets/Scripts/ExitTeleporter.cs" />
     <Compile Include="Assets/FantasyEnvironments/Environments/Town/Scripts/Door.cs" />
     <Compile Include="Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs" />
+<<<<<<< HEAD
+    <Compile Include="Assets/Scripts/DoorsMngr.cs" />
+=======
     <Compile Include="Assets/WrapToRadius.cs" />
+>>>>>>> main
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

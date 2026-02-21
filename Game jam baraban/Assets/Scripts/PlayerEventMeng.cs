@@ -61,7 +61,7 @@ public class PlayerEventMeng : MonoBehaviour
         {
             // --- THE EXCEPTION CHECK ---
             // If the name matches exactly, we skip the switch logic
-            if (house.name == "farmhouse_obj")
+            if (house.name == "farmhouse_obj" || house.name == "farmhouse_fbx")
             {
                 Debug.Log("Found the farmhouse! Keeping it real.");
                 continue; // Skip the rest of the code for this specific loop

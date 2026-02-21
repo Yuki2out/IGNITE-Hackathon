@@ -9,13 +9,30 @@ public class LevelPortal : MonoBehaviour
 
     private bool isPlayerInside = false;
 
+    private bool levelChangeScheduled = false;
+
+    private FadeManager fadeManager;
+
+    void Start()
+    {
+        this.fadeManager = GameObject.Find("FadeManager").GetComponent<FadeManager>();
+        this.fadeManager.Unfade();
+    }
+
     void Update()
     {
+        if (levelChangeScheduled && fadeManager.finished)
+        {
+            LoadNextScene();  
+        }
+
         // 1. Check if player is in trigger and presses E
         if (isPlayerInside && Input.GetKeyDown(KeyCode.E))
         {
             SaveProgress();
-            LoadNextScene();
+            levelChangeScheduled = true;
+            this.fadeManager.finished = false;
+            fadeManager.Fade();
         }
     }
 
@@ -25,12 +42,11 @@ public class LevelPortal : MonoBehaviour
         int currentSavedStage = PlayerPrefs.GetInt("StageReached", 0);
 
         // 3. Only update if the new stage is higher than what we already reached
-        if (stageIndex > currentSavedStage)
-        {
-            PlayerPrefs.SetInt("StageReached", stageIndex);
-            PlayerPrefs.Save(); // Forces the save to disk
-            Debug.Log("New Stage Reached Saved: " + stageIndex);
-        }
+        if (stageIndex <= currentSavedStage) return;
+
+        PlayerPrefs.SetInt("StageReached", stageIndex);
+        PlayerPrefs.Save(); // Forces the save to disk
+        Debug.Log("New Stage Reached Saved: " + stageIndex);
     }
 
     void LoadNextScene()

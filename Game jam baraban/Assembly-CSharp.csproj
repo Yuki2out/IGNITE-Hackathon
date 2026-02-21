@@ -52,6 +52,7 @@
     <Compile Include="Assets/Realistic Tree/Demo Scene/Rotate.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Realistic Tree/Demo Scene/Buttonscript.cs" />
+    <Compile Include="Assets/FadeManager.cs" />
     <Compile Include="Assets/Materials/darkVoidWaterflow.cs" />
     <Compile Include="Assets/Tree_Packs/URP_Tree_Pack/Scripts/Tree_Packs.cs" />
     <Compile Include="Assets/LevelPortal.cs" />

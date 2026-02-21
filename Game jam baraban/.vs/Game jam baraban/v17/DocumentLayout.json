@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46FF3B20-8EBD-EBB7-4EFA-30D913D218FA}|Assembly-CSharp.csproj|c:\\users\\sus\\desktop\\game\\ignite-hackathon\\game jam baraban\\assets\\textmesh pro\\resources\\fonts \u0026 materials\\josefin_sans\\ofl.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{46FF3B20-8EBD-EBB7-4EFA-30D913D218FA}|Assembly-CSharp.csproj|solutionrelative:assets\\textmesh pro\\resources\\fonts \u0026 materials\\josefin_sans\\ofl.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FF3B20-8EBD-EBB7-4EFA-30D913D218FA}|Assembly-CSharp.csproj|c:\\users\\sus\\desktop\\game\\ignite-hackathon\\game jam baraban\\assets\\scripts\\guidemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46FF3B20-8EBD-EBB7-4EFA-30D913D218FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guidemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FF3B20-8EBD-EBB7-4EFA-30D913D218FA}|Assembly-CSharp.csproj|C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\assets\\scripts\\knockdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46FF3B20-8EBD-EBB7-4EFA-30D913D218FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knockdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OFL.txt",
+              "DocumentMoniker": "C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\Assets\\TextMesh Pro\\Resources\\Fonts \u0026 Materials\\Josefin_Sans\\OFL.txt",
+              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Resources\\Fonts \u0026 Materials\\Josefin_Sans\\OFL.txt",
+              "ToolTip": "C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\Assets\\TextMesh Pro\\Resources\\Fonts \u0026 Materials\\Josefin_Sans\\OFL.txt",
+              "RelativeToolTip": "Assets\\TextMesh Pro\\Resources\\Fonts \u0026 Materials\\Josefin_Sans\\OFL.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-02-21T09:36:34.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GuideMenu.cs",
+              "DocumentMoniker": "C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\Assets\\Scripts\\GuideMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GuideMenu.cs",
+              "ToolTip": "C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\Assets\\Scripts\\GuideMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GuideMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T09:25:40.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KnockDoor.cs",
+              "DocumentMoniker": "C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\Assets\\Scripts\\KnockDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KnockDoor.cs",
+              "ToolTip": "C:\\Users\\SUS\\Desktop\\Game\\IGNITE-Hackathon\\Game jam baraban\\Assets\\Scripts\\KnockDoor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KnockDoor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T09:24:51.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

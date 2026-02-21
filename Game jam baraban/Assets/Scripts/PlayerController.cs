@@ -102,13 +102,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        // Read mouse input here
         rotX -= Input.GetAxis("Mouse X") * mouseSensetivity;
         rotY += Input.GetAxis("Mouse Y") * mouseSensetivity;
-
         rotY = Mathf.Clamp(rotY, -90f, 90f);
-
-
-
 
         time += Time.deltaTime;
         footstepsTimer += Time.deltaTime;
@@ -123,7 +120,6 @@ public class PlayerController : MonoBehaviour
         {
             //jump_grunt.Play();
             GetComponent<Rigidbody>().AddForce(transform.up * jumpStrength);
-
             this.onSurface = false;
         }
 
@@ -136,6 +132,19 @@ public class PlayerController : MonoBehaviour
         }
 
         StickToGround();
+    }
+
+    // New LateUpdate for smooth camera rotation
+    void LateUpdate()
+    {
+        // Apply rotation after all Update() calls
+        float bobX = Mathf.Sin(time * bobbingFrequency) * (bobbingStrength + bobTimer / 500f) * movementVelocity * 100 / 5f * 8f;
+        float targetRotY = -rotY + bobX;
+        float targetRotX = 360 - rotX;
+
+        // Directly apply rotation to camera and player
+        camera.transform.eulerAngles = new Vector3(targetRotY, targetRotX, 0f);
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, targetRotX, transform.eulerAngles.z);
     }
 
     private void OnCollisionEnter(Collision collision)

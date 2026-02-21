@@ -8,22 +8,20 @@ public class KnockDoor : MonoBehaviour
     void Update()
     {
         // 1. Check for Input
-        if (isPlayerInside && Input.GetKeyDown(KeyCode.E))
-        {
-            if (playerScript != null)
-            {
-                // Increase the counter on the player
-                playerScript.myCounter++;
-                Debug.Log("Knock! Total knocks: " + playerScript.myCounter);
-                
-                // Trigger the house spawning logic
-                EnableNearestDisabledHouse();
+        if (!(isPlayerInside && Input.GetKeyDown(KeyCode.E))) return;
+        if (playerScript == null) return;
 
-                // 2. Destroy the trigger so this door can't be used again
-                Debug.Log("Door trigger used and destroyed.");
-                Destroy(gameObject); 
-            }
-        }
+        // Increase the counter on the player
+        playerScript.myCounter++;
+        Debug.Log("Knock! Total knocks: " + playerScript.myCounter);
+        
+        // Trigger the house spawning logic
+        EnableNearestDisabledHouse();
+
+        // 2. Destroy the trigger so this door can't be used again
+        Debug.Log("Door trigger used and destroyed.");
+        gameObject.SetActive(false);
+        // Destroy(gameObject);
     }
 
     void EnableNearestDisabledHouse()
@@ -36,15 +34,14 @@ public class KnockDoor : MonoBehaviour
         foreach (Transform house in playerScript.housesHolder.transform)
         {
             // 1. Check if the house is actually disabled
-            if (!house.gameObject.activeSelf)
+            if (house.gameObject.activeSelf) continue;
+
+            float dist = Vector3.Distance(pTrans.position, house.position);
+            
+            if (dist < minDistance)
             {
-                float dist = Vector3.Distance(pTrans.position, house.position);
-                
-                if (dist < minDistance)
-                {
-                    minDistance = dist;
-                    closestHiddenHouse = house.gameObject;
-                }
+                minDistance = dist;
+                closestHiddenHouse = house.gameObject;
             }
         }
 

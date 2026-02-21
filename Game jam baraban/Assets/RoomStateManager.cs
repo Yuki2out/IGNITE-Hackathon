@@ -21,7 +21,7 @@ public class RoomStateManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Spawn(spawnpointUsed);
+        Spawn(PlayerPrefs.GetInt("StageReached", 0));
     }
 
     // Update is called once per frame

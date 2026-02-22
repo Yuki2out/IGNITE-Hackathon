@@ -42,8 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 13
-  m_BakeOnSceneLoad: 0
+  serializedVersion: 12
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -274,6 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &3352083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -485,6 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &15275596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -560,6 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &19229584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3502,6 +3504,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102014511}
   m_Mesh: {fileID: 5067471260318222688, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &102736547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 102736549}
+  - component: {fileID: 102736548}
+  m_Layer: 0
+  m_Name: DoorOpen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &102736548
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102736547}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c607725d867ff4f48a0a6893fea495a7, type: 3}
+  m_Resource: {fileID: 8300000, guid: c607725d867ff4f48a0a6893fea495a7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &102736549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102736547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9088699, y: -0.43417192, z: 6.6201143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &110226942 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3154191751845077724, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
@@ -4234,6 +4365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &127644392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4419,6 +4551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &134104199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5772,6 +5905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &157921734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9160,6 +9294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &257749940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10000,6 +10135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &270544792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10124,6 +10260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &272860181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12106,6 +12243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: DoorsRoom
   stageIndex: 3
+  needToPressE: 0
 --- !u!65 &320901487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13525,6 +13663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &342752957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16189,6 +16328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &423817375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18747,6 +18887,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506886015}
   m_Mesh: {fileID: -2206198006351116521, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &508545433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508545435}
+  - component: {fileID: 508545434}
+  m_Layer: 0
+  m_Name: BackgroundMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &508545434
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508545433}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 814e6664ddb61724ebf1dccdb6fd470a, type: 3}
+  m_Resource: {fileID: 8300000, guid: 814e6664ddb61724ebf1dccdb6fd470a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.574
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &508545435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508545433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.072777, y: -1.5571296, z: 3.9549627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &509760505
 GameObject:
   m_ObjectHideFlags: 0
@@ -19343,6 +19612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &520068405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19966,6 +20236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &540149244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20493,6 +20764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &547579753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20678,6 +20950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &548071642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22796,6 +23069,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603110093}
   m_Mesh: {fileID: -1044338458621596192, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &607207433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607207434}
+  - component: {fileID: 607207435}
+  m_Layer: 0
+  m_Name: Footstep5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &607207434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607207433}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1748731611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &607207435
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607207433}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9e3aabeed5c283c44a6423615ceb0b9f, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9e3aabeed5c283c44a6423615ceb0b9f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.172
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &610553138
 GameObject:
   m_ObjectHideFlags: 0
@@ -23061,6 +23463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &615636870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23355,6 +23758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &627028002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26668,6 +27072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &678688808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27367,6 +27772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &707814557
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27898,11 +28304,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 37685915}
+  footstepManager: {fileID: 0}
   acceleration: 20
   jumpStrength: 150
   mouseSensetivity: 1
   bobbingStrength: 0.01
   bobbingFrequency: 5
+  cameraLocked: 0
 --- !u!136 &716359146
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -28058,6 +28466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &717503712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31815,6 +32224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &790567011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32445,6 +32855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &808231598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33728,6 +34139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &844942427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33913,6 +34325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &848948205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34533,6 +34946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &862419085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35923,6 +36337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &901123455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36464,6 +36879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &909086387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36539,6 +36955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &909144271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38354,6 +38771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &952280066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39223,6 +39641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &965833474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39494,6 +39913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &971647685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40192,6 +40612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1008649597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40990,6 +41411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1039805704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42589,6 +43011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1079285086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43607,6 +44030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1094004776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43791,6 +44215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1096516758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44086,6 +44511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1104798765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45257,6 +45683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1144955406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46788,6 +47215,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186451247}
   m_Mesh: {fileID: 5067471260318222688, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &1190147502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1190147504}
+  - component: {fileID: 1190147503}
+  m_Layer: 0
+  m_Name: Footstep1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1190147503
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190147502}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4f47ceeda0dc8e546ad219f871d56b8d, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4f47ceeda0dc8e546ad219f871d56b8d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.172
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1190147504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190147502}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1748731611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1196995318
 GameObject:
   m_ObjectHideFlags: 0
@@ -47936,6 +48492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1207492046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48011,6 +48568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1207561171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48563,6 +49121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1225700877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48748,6 +49307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1226724724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49107,6 +49667,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230262284}
   m_Mesh: {fileID: 8670748824471800158, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &1234046058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1234046060}
+  - component: {fileID: 1234046059}
+  m_Layer: 0
+  m_Name: Footstep2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1234046059
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234046058}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2f49f7c942cbff2429a72a70bbad88c7, type: 3}
+  m_Resource: {fileID: 8300000, guid: 2f49f7c942cbff2429a72a70bbad88c7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.172
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1234046060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234046058}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1748731611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1235484105
 GameObject:
   m_ObjectHideFlags: 0
@@ -49737,6 +50426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1249314196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50577,6 +51267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1256846057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51716,6 +52407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1278270214
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52011,6 +52703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1282806958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52086,6 +52779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1283406591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52334,6 +53028,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290839694}
   m_Mesh: {fileID: 5129110042813977296, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &1291346228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291346230}
+  - component: {fileID: 1291346229}
+  m_Layer: 0
+  m_Name: Footstep6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1291346229
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291346228}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6273749869750b54ca80ff176b14e906, type: 3}
+  m_Resource: {fileID: 8300000, guid: 6273749869750b54ca80ff176b14e906, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.172
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1291346230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291346228}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1748731611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1293093359
 GameObject:
   m_ObjectHideFlags: 0
@@ -52710,6 +53533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1303949438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53974,6 +54798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1343812009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54269,6 +55094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1346908580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54517,6 +55343,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359235909}
   m_Mesh: {fileID: -433645941611980168, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &1360426679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360426681}
+  - component: {fileID: 1360426680}
+  m_Layer: 0
+  m_Name: Footstep4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1360426680
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360426679}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ce3d26c2ec2b1084885124184ca4d1e7, type: 3}
+  m_Resource: {fileID: 8300000, guid: ce3d26c2ec2b1084885124184ca4d1e7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.172
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1360426681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360426679}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1748731611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1363487678
 GameObject:
   m_ObjectHideFlags: 0
@@ -54563,6 +55518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1363487681
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57132,6 +58088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1414764550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58789,6 +59746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1441259244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58864,6 +59822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1444511896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60039,6 +60998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1491951036
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60114,6 +61074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1496051603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60407,6 +61368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1502243574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61700,6 +62662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1518437107
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61775,6 +62738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1520706083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61987,6 +62951,135 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1531500305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1531500307}
+  - component: {fileID: 1531500306}
+  m_Layer: 0
+  m_Name: Chime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1531500306
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531500305}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cb4cc287ed3d32b44971d1ec94197eca, type: 3}
+  m_Resource: {fileID: 8300000, guid: cb4cc287ed3d32b44971d1ec94197eca, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1531500307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531500305}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9088699, y: -0.43417192, z: 6.6201143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1538421338
 GameObject:
   m_ObjectHideFlags: 0
@@ -62325,6 +63418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1557102648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62509,6 +63603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1560060059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65738,6 +66833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1655236542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66359,6 +67455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1668142773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67272,6 +68369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1691492376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67637,6 +68735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1697453177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67666,6 +68765,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697453174}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1697591042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697591044}
+  - component: {fileID: 1697591043}
+  m_Layer: 0
+  m_Name: Footstep3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1697591043
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697591042}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a4a3b82cac9b7d54d945676c05e2799d, type: 3}
+  m_Resource: {fileID: 8300000, guid: a4a3b82cac9b7d54d945676c05e2799d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.172
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1697591044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697591042}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1748731611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1697951556
 GameObject:
   m_ObjectHideFlags: 0
@@ -68773,6 +70001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1726963101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69117,6 +70346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1728620156
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69264,6 +70494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1732635233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69916,6 +71147,65 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741354320}
   m_Mesh: {fileID: -6058776198354603215, guid: c2ade5e8b780225a385bae168a8e1412, type: 3}
+--- !u!1 &1748731609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1748731611}
+  - component: {fileID: 1748731610}
+  m_Layer: 0
+  m_Name: Footsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1748731610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748731609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f6fa53970db834699bd0b9bf027957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSounds:
+  - {fileID: 1190147503}
+  - {fileID: 1234046059}
+  - {fileID: 1697591043}
+  - {fileID: 1360426680}
+  - {fileID: 1291346229}
+  - {fileID: 2052770560}
+  playing: 0
+--- !u!4 &1748731611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748731609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8454287, y: -0.20238262, z: 6.485436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1190147504}
+  - {fileID: 1234046060}
+  - {fileID: 1697591044}
+  - {fileID: 1360426681}
+  - {fileID: 607207434}
+  - {fileID: 1291346230}
+  - {fileID: 2052770561}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1749800864
 GameObject:
   m_ObjectHideFlags: 0
@@ -69962,6 +71252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1749800867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70234,6 +71525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1758986525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70917,6 +72209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: DoorsRoom
   stageIndex: 3
+  needToPressE: 0
 --- !u!65 &1776295352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71774,6 +73067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1788631511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72399,6 +73693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1797044171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73162,6 +74457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1816691397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73457,6 +74753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1821739815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73641,6 +74938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1827336800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75230,6 +76528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1880174525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75743,6 +77042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1905496206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75890,6 +77190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1909454338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77720,6 +79021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1942904918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79947,6 +81249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &1990700406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81293,6 +82596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &2035175296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81920,6 +83224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &2051773174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82021,6 +83326,135 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &2052770559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2052770561}
+  - component: {fileID: 2052770560}
+  m_Layer: 0
+  m_Name: Footstep7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &2052770560
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052770559}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b35baa199d5ae814581eb310967f1a8b, type: 3}
+  m_Resource: {fileID: 8300000, guid: b35baa199d5ae814581eb310967f1a8b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.172
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2052770561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052770559}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1748731611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2055567393
 GameObject:
   m_ObjectHideFlags: 0
@@ -82508,6 +83942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &2061842472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82697,6 +84132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &2064719025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83764,6 +85200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &2077548747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86825,6 +88262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1cfe35dc44f7d178cea1ab51834538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KnockDoor
+  needToPressE: 0
 --- !u!65 &2141962118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86976,3 +88414,7 @@ SceneRoots:
   - {fileID: 1243023265}
   - {fileID: 1776295355}
   - {fileID: 271145179}
+  - {fileID: 508545435}
+  - {fileID: 1748731611}
+  - {fileID: 102736549}
+  - {fileID: 1531500307}

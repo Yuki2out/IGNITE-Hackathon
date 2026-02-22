@@ -5,11 +5,14 @@ public class RoomStateManager : MonoBehaviour
     public Transform[] spawnPositions;
     public float[] environmentStrength;
     public float[] sunStrength;
+    public float[] audioVolumes;
+    public float[] audioPitches;
 
     public Transform player;
     public Light sun;
 
     public int spawnPointIndex;
+    public AudioSource backgroundMusic;
 
     void Spawn(int spawnPointIndex)
     {
@@ -18,6 +21,9 @@ public class RoomStateManager : MonoBehaviour
         player.transform.position = spawnPositions[spawnPointIndex].position;
         RenderSettings.ambientIntensity = environmentStrength[spawnPointIndex];
         sun.intensity = sunStrength[spawnPointIndex];
+
+        backgroundMusic.pitch = audioPitches[spawnPointIndex];
+        backgroundMusic.volume = audioVolumes[spawnPointIndex];
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

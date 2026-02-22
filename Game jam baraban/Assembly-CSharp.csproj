@@ -42,7 +42,7 @@
     <UnityVersion>6000.0.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Simeon\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.2.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -50,23 +50,24 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\HouseScatterer.cs" />
     <Compile Include="Assets\Realistic Tree\Demo Scene\Rotate.cs" />
+    <Compile Include="Assets\FootstepManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\AppState.cs" />
     <Compile Include="Assets\Realistic Tree\Demo Scene\Buttonscript.cs" />
-    <Compile Include="Assets\FadeManager.cs" />
     <Compile Include="Assets\Materials\darkVoidWaterflow.cs" />
-    <Compile Include="Assets\AppState.cs" />
     <Compile Include="Assets\Tree_Packs\URP_Tree_Pack\Scripts\Tree_Packs.cs" />
     <Compile Include="Assets\Scripts\GuideMenu.cs" />
-    <Compile Include="Assets\LevelPortal.cs" />
     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
+    <Compile Include="Assets\Scripts\LevelPortal.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\KnockDoor.cs" />
     <Compile Include="Assets\Scripts\PlayerEventMeng.cs" />
+    <Compile Include="Assets\Scripts\FadeManager.cs" />
     <Compile Include="Assets\Scripts\ExitTeleporter.cs" />
     <Compile Include="Assets\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
-    <Compile Include="Assets\WrapToRadius.cs" />
     <Compile Include="Assets\Scripts\DoorsMngr.cs" />
+    <Compile Include="Assets\Scripts\WrapToRadius.cs" />
     <Compile Include="Assets\RoomStateManager.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1379,10 +1380,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
       <Private>False</Private>
@@ -1397,6 +1394,10 @@
     </Reference>
     <Reference Include="Unity.Formats.Fbx.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">

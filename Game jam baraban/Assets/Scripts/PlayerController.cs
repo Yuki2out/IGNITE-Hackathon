@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject camera;
+    public FootstepManager footstepManager;
 
     public float acceleration;
 
@@ -51,6 +52,8 @@ public class PlayerController : MonoBehaviour
 
         this.time = 0f;
         this.bobTimer = 0f;
+
+        this.footstepManager = GameObject.Find("Footsteps").GetComponent<FootstepManager>();
 
         this.onSurface = true;
         tag = "Floor";
@@ -114,10 +117,14 @@ public class PlayerController : MonoBehaviour
         time += Time.deltaTime;
         footstepsTimer += Time.deltaTime;
 
-        if (movementVelocity > 0.02f && footstepsTimer > Mathf.Lerp(0.4f, 0.15f, movementVelocity * 10f) && onSurface)
+        if (movementVelocity > 0.02f)
         {
-            //footsteps.Play();
+            footstepManager.Play();
             footstepsTimer = 0f;
+        }
+        else
+        {
+            footstepManager.Stop();
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && this.onSurface)

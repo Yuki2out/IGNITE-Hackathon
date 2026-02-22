@@ -3,12 +3,13 @@ using UnityEngine;
 public class KnockDoor : MonoBehaviour
 {
     private bool isPlayerInside = false;
+    public bool needToPressE = false;
     private PlayerEventMeng playerScript;
 
     void Update()
     {
         // 1. Check for Input
-        if (!(isPlayerInside && Input.GetKeyDown(KeyCode.E))) return;
+        if (!(isPlayerInside && (Input.GetKeyDown(KeyCode.E) || !needToPressE))) return;
         if (playerScript == null) return;
 
         // Increase the counter on the player

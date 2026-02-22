@@ -205,7 +205,7 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.072143555
+          time: 0.033472802
           value: 0
           inSlope: 0
           outSlope: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.9339027
+          time: 0.9748954
           value: 0
           inSlope: 0
           outSlope: 0
@@ -286,7 +286,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: -1.1
   contrast:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 40
   colorFilter:
     m_OverrideState: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 13.35
+    m_Value: 3
   scatter:
     m_OverrideState: 1
     m_Value: 0.564

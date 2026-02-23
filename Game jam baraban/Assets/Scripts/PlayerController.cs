@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject camera;
     public FootstepManager footstepManager;
+    private Rigidbody selfAsRigidbody;
 
     public float acceleration;
 
@@ -38,13 +39,6 @@ public class PlayerController : MonoBehaviour
     private float rotX;
     private float rotY;
 
-    private float minFov = 85;
-    private float maxFov = 100;
-
-    private float lowestFov = 30;
-    private float highestFov = 140;
-
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -60,6 +54,8 @@ public class PlayerController : MonoBehaviour
 
         rotX = 360 - camera.transform.eulerAngles.y;
         rotY = camera.transform.eulerAngles.x;
+
+        this.selfAsRigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -69,7 +65,7 @@ public class PlayerController : MonoBehaviour
         float friction = this.onSurface ? this.materialFriction : AirFriction;
         float controlCoefficient = friction;
 
-        float mass = this.GetComponent<Rigidbody>().mass;
+        float mass = selfAsRigidbody.mass;
         float g = Physics.gravity.magnitude;
         float weight = mass * g;
 
@@ -80,13 +76,12 @@ public class PlayerController : MonoBehaviour
         //camera.transform.rotation *= Quaternion.Euler(-Input.GetAxis("Mouse Y") + Mathf.Sin(time * bobbingFrequency) * (bobbingStrength + bobTimer/500f) * movementVelocity * 100 / 5f * 8f, 0f, Mathf.Cos(time * bobbingFrequency * 1.618f) * bobbingStrength * this.velocity);
 
         //camera.transform.eulerAngles = new Vector3(camera.transform.eulerAngles.x, camera.transform.eulerAngles.y, -Input.GetAxis("Horizontal") * 2f);
-        camera.transform.eulerAngles = new Vector3(-rotY + Mathf.Sin(time * bobbingFrequency) * (bobbingStrength + bobTimer / 500f) * movementVelocity * 100 / 5f * 8f, 360 - rotX, 0f);
         transform.eulerAngles = new Vector3(transform.eulerAngles.x, 360 - rotX, transform.eulerAngles.z);
 
         float vAxis = Input.GetAxis("Vertical");
         float hAxis = Input.GetAxis("Horizontal");
 
-        vAxis = ( vAxis > 0f ? vAxis : vAxis * BackMovementFactor ) ;
+        vAxis = vAxis > 0f ? vAxis : vAxis * BackMovementFactor;
 
         if (vAxis == 0f && hAxis == 0f) this.velocity -= tick * friction * g;
         this.velocity = Mathf.Max(0, this.velocity);
@@ -95,7 +90,7 @@ public class PlayerController : MonoBehaviour
         movementDir = (movementDir != Vector3.zero && movementDir.magnitude > 1f ? movementDir.normalized : movementDir);
 
         Vector3 deltaPos = ( Vector3.Lerp ( prevMovementDir, movementDir, controlCoefficient ) * this.velocity ) ;
-        transform.position += deltaPos;
+        selfAsRigidbody.MovePosition(transform.position + deltaPos);
 
         this.movementVelocity = deltaPos.magnitude;
 
@@ -130,7 +125,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && this.onSurface)
         {
             //jump_grunt.Play();
-            GetComponent<Rigidbody>().AddForce(transform.up * jumpStrength);
+            selfAsRigidbody.AddForce(transform.up * jumpStrength);
             this.onSurface = false;
         }
 
@@ -150,12 +145,16 @@ public class PlayerController : MonoBehaviour
     {
         // Apply rotation after all Update() calls
         float bobX = Mathf.Sin(time * bobbingFrequency) * (bobbingStrength + bobTimer / 500f) * movementVelocity * 100 / 5f * 8f;
-        float targetRotY = -rotY + bobX;
-        float targetRotX = 360 - rotX;
+        float targetRotY = -rotY + bobX * 0f;
+        float targetRotX = rotX;
+
+        transform.rotation = Quaternion.Euler(0f, -targetRotX, 0f);
 
         // Directly apply rotation to camera and player
-        camera.transform.eulerAngles = new Vector3(targetRotY, targetRotX, 0f);
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, targetRotX, transform.eulerAngles.z);
+        camera.transform.localRotation = Quaternion.Euler(targetRotY, 0f, 0f);
+        // camera.transform.eulerAngles = new Vector3(-rotY + Mathf.Sin(time * bobbingFrequency) * (bobbingStrength + bobTimer / 500f) * movementVelocity * 100 / 5f * 8f, 360 - rotX, 0f);
+
+        // transform.eulerAngles = new Vector3(transform.eulerAngles.x, targetRotX, transform.eulerAngles.z);
     }
 
     private void OnCollisionEnter(Collision collision)

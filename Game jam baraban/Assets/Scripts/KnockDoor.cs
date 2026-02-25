@@ -13,8 +13,8 @@ public class KnockDoor : MonoBehaviour
         if (playerScript == null) return;
 
         // Increase the counter on the player
-        playerScript.myCounter++;
-        Debug.Log("Knock! Total knocks: " + playerScript.myCounter);
+        playerScript.knockCounter++;
+        Debug.Log("Knock! Total knocks: " + playerScript.knockCounter);
         
         // Trigger the house spawning logic
         EnableNearestDisabledHouse();

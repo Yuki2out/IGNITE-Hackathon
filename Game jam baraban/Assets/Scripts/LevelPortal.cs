@@ -17,29 +17,40 @@ public class LevelPortal : MonoBehaviour
 
     void Start()
     {
-        this.fadeManager = GameObject.Find("FadeManager").GetComponent<FadeManager>();
-        this.fadeManager.Unfade();
+        this.fadeManager = Utils.TryGetComponent<FadeManager>("FadeManager");
+
+        // if (this.fadeManager != null)
+        // {
+        //     this.fadeManager.Unfade();
+        // }
     }
 
     void Update()
     {
-        if (levelChangeScheduled && fadeManager.finished)
+        bool finished = (this.fadeManager == null || this.fadeManager.finished);
+
+        if (levelChangeScheduled && finished)
         {
             LoadNextScene();
         }
 
+        if (!isPlayerInside) return;
+
+        bool pressedKey = Input.GetKeyDown(KeyCode.E) || !needToPressE;
+        if (!pressedKey || levelChangeScheduled) return;
+
         // 1. Check if player is in trigger and presses E
-        if (isPlayerInside && (Input.GetKeyDown(KeyCode.E) || !needToPressE) && !levelChangeScheduled)
+        SaveProgress();
+
+        GameObject.Find("DoorOpen").GetComponent<AudioSource>().Play();
+
+        if (this.fadeManager != null)
         {
-            SaveProgress();
-
-            GameObject.Find("DoorOpen").GetComponent<AudioSource>().Play();
-
             fadeManager.Fade();
             this.fadeManager.finished = false; 
-
-            levelChangeScheduled = true;
         }
+
+        levelChangeScheduled = true;
     }
 
     void SaveProgress()
@@ -52,37 +63,35 @@ public class LevelPortal : MonoBehaviour
 
         PlayerPrefs.SetInt("StageReached", stageIndex);
         PlayerPrefs.Save(); // Forces the save to disk
+
         Debug.Log("New Stage Reached Saved: " + stageIndex);
     }
 
     void LoadNextScene()
     {
-        if (!string.IsNullOrEmpty(sceneToLoad))
-        {
-            SceneManager.LoadScene(sceneToLoad);
-        }
-        else
+        if (string.IsNullOrEmpty(sceneToLoad))
         {
             Debug.LogError("No Scene Name entered in the Inspector!");
+            return;
         }
+
+        SceneManager.LoadScene(sceneToLoad);
     }
 
     // --- Trigger Logic ---
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            isPlayerInside = true;
-            Debug.Log("At portal. Press E to travel to " + sceneToLoad);
-        }
+        if (!other.CompareTag("Player")) return;
+
+        isPlayerInside = true;
+        Debug.Log("At portal. Press E to travel to " + sceneToLoad);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            isPlayerInside = false;
-        }
+        if (!other.CompareTag("Player")) return;
+
+        isPlayerInside = false;
     }
 }

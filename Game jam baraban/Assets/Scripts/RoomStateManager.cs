@@ -14,16 +14,23 @@ public class RoomStateManager : MonoBehaviour
     public int spawnPointIndex;
     public AudioSource backgroundMusic;
 
+    private T TryReadArr<T>(T[] arr, int index, T defaultValue)
+    {
+        if (index < 0 || index >= arr.Length) return defaultValue;
+        return arr[index];
+    }
+
     void Spawn(int spawnPointIndex)
     {
         spawnPointIndex = Mathf.Min(spawnPositions.Length - 1, spawnPointIndex);
 
         player.transform.position = spawnPositions[spawnPointIndex].position;
-        RenderSettings.ambientIntensity = environmentStrength[spawnPointIndex];
-        sun.intensity = sunStrength[spawnPointIndex];
 
-        backgroundMusic.pitch = audioPitches[spawnPointIndex];
-        backgroundMusic.volume = audioVolumes[spawnPointIndex];
+        RenderSettings.ambientIntensity = TryReadArr(environmentStrength, spawnPointIndex, 0.85f);
+        sun.intensity = TryReadArr(sunStrength, spawnPointIndex, 0.85f);
+
+        backgroundMusic.pitch = TryReadArr(audioPitches, spawnPointIndex, 1);
+        backgroundMusic.volume = TryReadArr(audioVolumes, spawnPointIndex, 0.5f);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

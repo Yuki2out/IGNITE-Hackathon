@@ -18,7 +18,6 @@ public class FootstepManager : MonoBehaviour
     public void Play()
     {
         playing = true;
-        Debug.Log("Playing footsteps!");
     }
 
     public void Stop()
@@ -35,24 +34,14 @@ public class FootstepManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!playing)
-        {
-            return;
-        }
+        if (!playing) return;
 
         counter += Time.deltaTime;
-        Debug.Log(counter);
-
-        if (counter < 0.5f)
-        {
-            return;
-        }
+        if (counter < 0.5f) return;
 
         int index = UnityEngine.Random.Range(0, footstepSounds.Length);
-        Debug.Log(index);
 
         footstepSounds[index].pitch = UnityEngine.Random.Range(0.7f, 1.3f);
-
         footstepSounds[index].Play();
 
         counter = 0f;

@@ -71,6 +71,7 @@
     <Compile Include="Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs" />
     <Compile Include="Assets/Scripts/DoorsMngr.cs" />
     <Compile Include="Assets/Scripts/WrapToRadius.cs" />
+    <Compile Include="Assets/Scripts/Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Josefin_Sans/README.txt" />

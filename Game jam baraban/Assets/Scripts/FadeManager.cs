@@ -11,17 +11,27 @@ public class FadeManager : MonoBehaviour
     private bool counting = false;
     public bool finished = false;
 
+    void TryPlayChime()
+    {
+        AudioSource chime = Utils.TryGetComponent<AudioSource>("Chime");
+
+        if (chime == null) return;
+
+        chime.Play();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GameObject.Find("Chime").GetComponent<AudioSource>().Play();
-
+        // TryPlayChime();
         Unfade();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Debug.Log($"{(counting ? "counting" : "")}{(finished ? ", finished" : "")}; start = {start}, mul = {multiplier}, counter = {counter}");
+
         if (!counting) return;
 
         counter += Time.deltaTime;

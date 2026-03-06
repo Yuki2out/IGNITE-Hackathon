@@ -3,34 +3,57 @@ using UnityEngine;
 
 public class PlayerEventMeng : MonoBehaviour
 {
-    public int myCounter = 0;
-    public int timesToKnock = 3;
+    public int knockCounter = 0;
+    public int requiredKnocksAmount = 3;
 
-    public float switchTimer = 5f; 
     public GameObject cardboardHousePrefab; 
     public GameObject housesHolder;
+    public GameObject firstHouse;
+    public GameObject abandonedHouse;
     
-    private bool allHousesEnabled = false;
-    private bool housesSwitched = false;
+    private bool allHousesEnabled;
+    private bool abandonedHouseActive;
 
     private List<Transform> noticedHouses = new();
+    private List<Transform> allHouses = new();
+    private List<Transform> scheduledForRemoval = new();
+
+    void Start()
+    {
+        this.allHouses = new();
+
+        this.allHousesEnabled = false;
+        this.abandonedHouseActive = false;
+
+        for (int i = 0; i < housesHolder.transform.childCount; i++)
+        {
+            allHouses.Add(housesHolder.transform.GetChild(i));
+        }
+
+        allHouses.Add(firstHouse.transform);
+    }
 
     void Update()
     {
-        if (myCounter >= timesToKnock && !allHousesEnabled)
+        if (knockCounter < requiredKnocksAmount) return;
+
+        if (!allHousesEnabled)
         {
             EnableAllChildren();
         }
-
-        if (allHousesEnabled && !housesSwitched)
+        else if (allHouses.Count != 0)
         {
-            if (switchTimer > 0)
+            SwitchHousesWithCardboard();
+            abandonedHouse.SetActive(false);
+        }
+        else if(!abandonedHouseActive && allHousesEnabled)
+        {
+            Vector3 toHouseVector = Vector3.Normalize(abandonedHouse.transform.position - this.transform.position);
+
+            if (Vector3.Dot(toHouseVector, this.transform.forward) < 0f)
             {
-                switchTimer -= Time.deltaTime;
-            }
-            else
-            {
-                SwitchHousesWithCardboard();
+                abandonedHouseActive = true;
+                abandonedHouse.SetActive(true);
             }
         }
     }
@@ -42,31 +65,15 @@ public class PlayerEventMeng : MonoBehaviour
             child.gameObject.SetActive(true);
         }
         
-        allHousesEnabled = true;
+        this.allHousesEnabled = true;
     }
 
     void SwitchHousesWithCardboard()
     {
-        Debug.Log("Timer up! Switching houses... saving the farmhouse.");
-        // housesSwitched = true;
-
-        // Create a list of children to iterate through safely
-        Transform[] allHouses = new Transform[housesHolder.transform.childCount];
-        for (int i = 0; i < housesHolder.transform.childCount; i++)
-        {
-            allHouses[i] = housesHolder.transform.GetChild(i);
-        }
+        scheduledForRemoval.Clear();
 
         foreach (Transform house in allHouses)
         {
-            // --- THE EXCEPTION CHECK ---
-            // If the name matches exactly, we skip the switch logic
-            if (house.name == "farmhouse_obj" || house.name == "farmhouse_fbx")
-            {
-                Debug.Log("Found the farmhouse! Keeping it real.");
-                continue; // Skip the rest of the code for this specific loop
-            }
-
             if (Vector3.Dot(Vector3.Normalize(house.transform.position - this.transform.position), this.transform.forward) >= 0f)
             {
                 noticedHouses.Add(house);
@@ -74,15 +81,24 @@ public class PlayerEventMeng : MonoBehaviour
             }
 
             if (!noticedHouses.Contains(house)) continue;
+            if (Vector3.Distance(house.transform.position, this.gameObject.transform.position) < 15f) continue;
 
-            // Spawn cardboard version
             GameObject cardboard = Instantiate(cardboardHousePrefab, house.position, house.rotation);
             cardboard.transform.parent = housesHolder.transform;
 
-            // Delete original
+            house.gameObject.SetActive(false);
+
+            scheduledForRemoval.Add(house);
+        }
+        
+        foreach (Transform house in scheduledForRemoval)
+        {
+            allHouses.Remove(house);
+            noticedHouses.Remove(house);
+
             Destroy(house.gameObject);
         }
 
-        Debug.Log("Switch complete! Only the farmhouse remains.");
+        scheduledForRemoval.Clear();
     }
 }
